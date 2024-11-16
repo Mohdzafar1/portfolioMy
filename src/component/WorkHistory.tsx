@@ -8,7 +8,7 @@ const WorkHistory = () => {
           position: "Software Developer at Pip Trade Delhi",
           certificateTitle: "Software Developer",
           period:"July 2024 - Present",
-          position:"Developer",
+          designation:"Developer",
           description:
             "Working on building frontend applications with a focus on trading platforms, utilizing React.js and modern frontend technologies to improve user experience.Implementing key features such as a comprehensive analytical dashboard for system monitoring, real-time updates, threat notifications, and interactive data visualizations, delivering meaningful insights to end-users",
         },
@@ -17,7 +17,7 @@ const WorkHistory = () => {
           position: "Software Developer at Aarvy Technologies Gurugram",
           certificateTitle: "React.js Developer intern",
           period:"December 2023 - June 2024",
-          position:"Developer",
+          designation:"Developer",
           description:
             "Developed and optimized frontend applications using React.js, gaining valuable hands-on experience in building responsive, user-friendly interfaces.Collaborated on a MERN Stack project, contributing to both the frontend and backend, enhancing the application’s performance and scalability.Gained experience with UI component libraries such as Ant Design, Material UI, and Fluent UI, integrating visually appealing and consistent UI elements.",
         },
@@ -26,7 +26,7 @@ const WorkHistory = () => {
           position: "QSpiders Training",
           certificateTitle: "QSpiders Training",
           period:"July 2023 - Dec 2023",
-          position:"Student",
+          designation:"Student",
           description:
             "Completed comprehensive web development training at QSpiders, mastering essential frontend and backend skills. Gained hands-on experience with HTML, CSS, JavaScript, and fundamental frameworks. Developed a solid understanding of full-stack development principles, preparing for real-world application building.",
         },
@@ -54,7 +54,7 @@ const WorkHistory = () => {
                   <div className="bg-yellow-400 p-2 rounded-lg">
                     {item.icon}
                   </div>
-                  <h3 className="font-semibold">{item.position}</h3>
+                  <h3 className="font-semibold">{item.designation}</h3>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-sm text-gray-600">{item.position}</span>
