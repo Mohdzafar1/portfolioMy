@@ -13,9 +13,14 @@ const Home = () => {
             <p className="text-gray-600 mb-6 max-w-lg">
             I’m Mohd Zafar, a dedicated Front-end Developer with a keen eye for detail and a passion for crafting interactive, responsive user interfaces..
             </p>
+            <a
+            href="/public/images/Mohd_Zafar_Resume.docx.pdf" // Path to the file in the public folder
+            download="Mohd_Zafar_Resume.pdf"
+            >
             <button className="bg-yellow-400 text-black px-8 py-3 rounded-full hover:bg-yellow-500 transition-colors">
               HIRE ME
             </button>
+            </a>
           </div>
           <img
   src="/images/mz.jpg"
