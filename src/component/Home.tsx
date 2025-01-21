@@ -3,6 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
+
            <div className="bg-white rounded-xl p-8 mb-8 flex flex-col lg:flex-row items-center justify-between">
           <div className="mb-8 lg:mb-0">
             <h1 className="text-4xl font-bold mb-2">
@@ -14,8 +15,8 @@ const Home = () => {
             I’m Mohd Zafar, a dedicated Front-end Developer with a keen eye for detail and a passion for crafting interactive, responsive user interfaces..
             </p>
             <a
-            href="/public/images/Mohd_Zafar_Resume.docx.pdf" // Path to the file in the public folder
-            download="Mohd_Zafar_Resume.pdf"
+             href="/images/MohdZafarResume.jpg" // Correct path to the image file
+             download="MohdZafarResume.jpg"
             >
             <button className="bg-yellow-400 text-black px-8 py-3 rounded-full hover:bg-yellow-500 transition-colors">
               HIRE ME

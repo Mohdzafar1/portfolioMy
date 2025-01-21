@@ -88,14 +88,13 @@ const Sidebar = () => {
 
       {/* Download CV Button */}
       <a
-      href="/public/images/Mohd_Zafar_Resume.docx.pdf" // Path to the file in the public folder
-      download="Mohd_Zafar_Resume.pdf" // Sets the downloaded file's name
-    >
-      <button className="w-full bg-yellow-400 text-black py-3 rounded-full flex items-center justify-center gap-2 hover:bg-yellow-500 transition-colors">
-        <FaDownload />
-        Download CV
-      </button>
-    </a>
+             href="/images/MohdZafarResume.jpg" // Correct path to the image file
+             download="MohdZafarResume.jpg"
+            >
+            <button className="bg-yellow-400 text-black px-8 py-3 rounded-full hover:bg-yellow-500 transition-colors">
+              Download
+            </button>
+            </a>
     </div>
   </div></div>
   )
