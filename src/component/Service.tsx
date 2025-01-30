@@ -5,7 +5,7 @@ const Service = () => {
     const services = [
         {
           icon: <HiCode className="w-8 h-8" />,
-          title: "Web Development",
+          title: "Front-End developer",
           description: "Blog, E-commerce",
         },
         {
@@ -14,24 +14,9 @@ const Service = () => {
           description: "Mobile App, Website Design",
         },
         {
-          icon: <HiMicrophone className="w-8 h-8" />,
-          title: "Sound Design",
-          description: "Voice Over, Beat Making",
-        },
-        {
-          icon: <HiPuzzle className="w-8 h-8" />,
-          title: "Game Design",
-          description: "Character Design, Props & Objects",
-        },
-        {
-          icon: <HiCamera className="w-8 h-8" />,
-          title: "Photography",
-          description: "Portrait, Product Photography",
-        },
-        {
-          icon: <HiSpeakerphone className="w-8 h-8" />,
-          title: "Advertising",
-          description: "Lorem ipsum dolor sit amet",
+          icon: <HiCode className="w-8 h-8" />,
+          title: "Back-End developer",
+          description: "Scalable back-end",
         },
       ]
   return (
