@@ -103,12 +103,12 @@ const Contact=()=> {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">City:</span>
-                    <span>Kichha</span>
+                    <span>Delhi</span>
                   </div>
-                  <div className="flex justify-between">
+                  {/* <div className="flex justify-between">
                     <span className="text-gray-600">Street:</span>
                     <span>Kichha ward no-11</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -124,20 +124,20 @@ const Contact=()=> {
                     <span className="text-gray-600">Email:</span>
                     <span>mohdzafar97597@gmail.com</span>
                   </div>
-                  <div className="flex justify-between">
+                  {/* <div className="flex justify-between">
                     <span className="text-gray-600">Skype:</span>
                     <span>@Yourusername</span>
-                  </div>
-                  <div className="flex justify-between">
+                  </div> */}
+                  {/* <div className="flex justify-between">
                     <span className="text-gray-600">Telegram:</span>
                     <span>@Yourusername</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
 
             {/* Support Info */}
-            <div className="bg-white rounded-xl p-6">
+            {/* <div className="bg-white rounded-xl p-6">
               <div className="flex items-start gap-4">
                 <div className="bg-yellow-400 p-3 rounded-full">
                   <FaPhone className="w-5 h-5" />
@@ -157,7 +157,7 @@ const Contact=()=> {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
