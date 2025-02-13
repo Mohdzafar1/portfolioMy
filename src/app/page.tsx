@@ -7,6 +7,7 @@ import WorkHistory from "@/component/WorkHistory"
 import Project from "@/component/Projects"
 import Contact from "@/component/Contact"
 import './globals.css'
+import SkillSection from "@/component/SkillSection"
 
 
 export default function Component() {
@@ -22,9 +23,11 @@ export default function Component() {
 
         {/* Services Section */}
         <Service/>
+        <Project/>
+        <SkillSection/>
         <Education/>
         <WorkHistory/>
-        <Project/>
+       
         <Contact/>
       </div>
     </div>
