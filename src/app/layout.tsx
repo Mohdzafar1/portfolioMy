@@ -1,4 +1,5 @@
 import SplashCursor from "@/component/animationContent/SplashCursor"
+import Footer from "@/component/Footer"
 
 export const metadata = {
   title:'Mohd Zafar',
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body >
         <SplashCursor/>
         {children}
+         <Footer/>
         </body>
     </html>
   ) 

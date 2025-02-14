@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGraduationCap, FaCode, FaLaptopCode } from "react-icons/fa"
 import Carousel from './animationContent/Carousel'
+import TrueFocus from './animationContent/TruFocus'
 
 const Education = () => {
   
@@ -9,7 +10,18 @@ const Education = () => {
     <div>
         <div className="bg-gray-50 p-8">
       <div className="w-full mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-2">Education</h2>
+        <h2 className="text-3xl font-bold text-center mb-2">
+        <TrueFocus
+sentence="Edu cation"
+manualMode={false}
+blurAmount={5}
+borderColor="yellow"
+animationDuration={2}
+pauseBetweenAnimations={1}
+/>
+          
+          
+          </h2>
         <p className="text-gray-600 text-center mb-8">
         I have a strong educational foundation in software development, with a focus on web technologies.
           <br />

@@ -1,5 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaJs, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa"
 import { SiTailwindcss, SiTypescript, SiNextdotjs, SiExpress, SiMongodb } from "react-icons/si"
+import TrueFocus from "./animationContent/TruFocus"
 
 const SkillSection = () => {
   const skills = [
@@ -41,7 +42,17 @@ const SkillSection = () => {
 
   return (
     <div className="container mx-auto px-4 py-16  my-3 rounded-xl bg-black">
-      <h2 className="text-3xl font-bold text-center mb-12 text-white">My Skills</h2>
+      <h2 className="text-3xl font-bold text-center mb-12 text-white">
+      <TrueFocus
+sentence="My Skills"
+manualMode={false}
+blurAmount={5}
+borderColor="red"
+animationDuration={2}
+pauseBetweenAnimations={1}
+/>
+        {/* My Skills */}
+        </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {skills.map((section) => (
           <div key={section.category} className="bg-white rounded-lg shadow-md p-6">

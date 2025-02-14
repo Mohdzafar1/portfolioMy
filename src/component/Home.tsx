@@ -38,7 +38,7 @@ const Home = () => {
               />
               {/* <span className="text-yellow-400">Front-end</span> Developer */}
             </h1>
-            <p className="text-gray-600 mb-6 max-w-lg">
+            <div className="text-gray-600 mb-6 max-w-lg">
           
   
   <FallingText
@@ -53,7 +53,7 @@ const Home = () => {
     mouseConstraintStiffness={0.9}
   />
             
-            </p>
+            </div>
             <a
              href="/images/MohdZafarResume.jpg" // Correct path to the image file
              download="MohdZafarResume.jpg"

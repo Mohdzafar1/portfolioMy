@@ -2,6 +2,7 @@
 import React from 'react'
 import { FaCode, FaPencilRuler, FaLaptopCode } from "react-icons/fa"
 import InfiniteMenu from './animationContent/InfiniteMenu'
+import TrueFocus from './animationContent/TruFocus'
 
 const WorkHistory = () => {
 
@@ -36,7 +37,16 @@ const WorkHistory = () => {
     <div>
         <div className=" p-8  my-3 rounded-xl bg-black">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-2 text-white">Work History</h2>
+        <h2 className="text-3xl font-bold text-center mb-2 text-white">
+        <TrueFocus
+sentence="Work History"
+manualMode={false}
+blurAmount={5}
+borderColor="yellow"
+animationDuration={2}
+pauseBetweenAnimations={1}
+/>
+          </h2>
         <p className="text-gray-600 text-center mb-8">
         This work history summary emphasizes your experience, technical skills, and project contributions in a way that showcases your strengths in frontend development and trading platform projects.
           <br />

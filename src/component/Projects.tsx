@@ -4,6 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { FaPlus } from "react-icons/fa"
 import RollingGallery from "./animationContent/RoallingGallery"
+import TrueFocus from "./animationContent/TruFocus"
 
 const Project = () => {
   const [activeCategory, setActiveCategory] = useState("All Categories")
@@ -76,7 +77,17 @@ const Project = () => {
     
 
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-2 text-white">Portfolio</h2>
+        <h2 className="text-3xl font-bold text-center mb-2 text-white">
+        <TrueFocus
+sentence="Port folio"
+manualMode={false}
+blurAmount={5}
+borderColor="yellow"
+animationDuration={2}
+pauseBetweenAnimations={1}
+/>
+          
+          </h2>
         <p className="text-gray-600 text-center mb-8">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor
           <br />
