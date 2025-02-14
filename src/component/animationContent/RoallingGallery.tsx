@@ -35,14 +35,19 @@ const RollingGallery: React.FC<RollingGalleryProps> = ({
   // Use default images if none are provided
   const galleryImages = images.length > 0 ? images : IMGS;
 
-  const [isScreenSizeSm, setIsScreenSizeSm] = useState<boolean>(
-    window.innerWidth <= 640
-  );
+  const [isScreenSizeSm, setIsScreenSizeSm] = useState<boolean>(false); // Set default state
+
   useEffect(() => {
-    const handleResize = () => setIsScreenSizeSm(window.innerWidth <= 640);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    if (typeof window !== "undefined") { // Ensure window is available
+      setIsScreenSizeSm(window.innerWidth <= 640);
+  
+      const handleResize = () => setIsScreenSizeSm(window.innerWidth <= 640);
+      window.addEventListener("resize", handleResize);
+  
+      return () => window.removeEventListener("resize", handleResize);
+    }
   }, []);
+  
 
   // 3D geometry calculations
   const cylinderWidth: number = isScreenSizeSm ? 1100 : 1800;
