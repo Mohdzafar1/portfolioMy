@@ -10,6 +10,7 @@ import './globals.css'
 import SkillSection from "@/component/SkillSection"
 
 
+
 export default function Component() {
   return (
     <div className="flex min-h-screen bg-gray-50">
@@ -26,8 +27,9 @@ export default function Component() {
         <Project/>
         <SkillSection/>
         <Education/>
+        
         <WorkHistory/>
-       
+        
         <Contact/>
       </div>
     </div>
