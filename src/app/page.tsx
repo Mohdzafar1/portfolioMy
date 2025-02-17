@@ -8,6 +8,7 @@ import Project from "@/component/Projects"
 import Contact from "@/component/Contact"
 import './globals.css'
 import SkillSection from "@/component/SkillSection"
+import SplashCursor from "@/component/animationContent/SplashCursor"
 
 
 
@@ -20,6 +21,7 @@ export default function Component() {
       {/* Main Content */}
       <div className="flex-1 p-6">
         {/* Hero Section */}
+        <SplashCursor />
          <Home/>
 
         {/* Services Section */}

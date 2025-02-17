@@ -1,4 +1,3 @@
-import SplashCursor from "@/component/animationContent/SplashCursor";
 import Footer from "@/component/Footer";
 import { Metadata } from "next";
 
@@ -15,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <SplashCursor />
+       
         {children}
         <Footer />
       </body>
